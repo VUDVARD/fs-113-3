@@ -31,8 +31,7 @@
     }
 
     .header {
-        padding-top: 24px;
-        padding-bottom: 24px;
+        border-bottom: 1px solid #e7e9fc
     }
     
     .header-container {
@@ -48,6 +47,8 @@
     .header-info {
         display: flex;
         gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
        
        
     }
@@ -93,6 +94,8 @@
     .address-list {
         display: flex;
         gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         
     }
     
@@ -138,6 +141,10 @@
         color: #fff;
         display: block;
         margin: 0 auto;
+        border: none;
+        height: 56px;
+        min-width: 169px;
+        border-radius: 4px;
         }
         
         
@@ -162,19 +169,15 @@
 
 
     .description {
-        padding-top: 120px;
-        padding-bottom: 120px;
         display: flex;
         gap: 24px;
-        
     }
-    
-    
     
     
     .description-list {
     width: calc( ( 100% - 3 * 24px ) / 4 );
-    
+    padding-top: 120px;
+    padding-bottom: 120px;
     }
     
     
@@ -216,9 +219,15 @@
     margin-bottom: 72px;
     }
     
+
     .team-list {
+        border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px 0px;
+        width: 264px;
+        height: 380px;
         display: flex;
         gap: 24px;
+        
       
     }
     
@@ -319,6 +328,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
     }
     
     .footer-logo-color {
@@ -334,5 +345,4 @@
     color: #F4F4FD;
     line-height: 1.5;
     width: 264px;
-    margin-top: 16px;
     }
